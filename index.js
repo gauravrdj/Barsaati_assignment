@@ -40,10 +40,10 @@ if(title==='Home / X'){
       
           
         allTrendings.push(firstTrending);
-        let secondTrending=await driver.findElement(By.xpath('/html/body/div[1]/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div[4]/div/section/div/div/div[4]/div/div/div/div[1]/span')).getText();
-        let thirdTrending=await driver.findElement(By.xpath('/html/body/div[1]/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div[4]/div/section/div/div/div[5]/div/div/div/div[2]/span')).getText();
-        let fourthTrending=await driver.findElement(By.xpath('/html/body/div[1]/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div[4]/div/section/div/div/div[6]/div/div/div/div[2]/span')).getText();
-        let fifthTrending=await driver.findElement(By.xpath('/html/body/div[1]/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div[4]/div/section/div/div/div[7]/div/div/div/div[2]/span')).getText();
+        let secondTrending=await driver.findElement(By.xpath('/html/body/div[1]/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div[4]/div/section/div/div/div[4]/div/div/div/div[1]')).getText();
+        let thirdTrending=await driver.findElement(By.xpath('/html/body/div[1]/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div[4]/div/section/div/div/div[5]/div/div/div/div[2]')).getText();
+        let fourthTrending=await driver.findElement(By.xpath('/html/body/div[1]/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div[4]/div/section/div/div/div[6]/div/div/div/div[2]')).getText();
+        let fifthTrending=await driver.findElement(By.xpath('/html/body/div[1]/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div[4]/div/section/div/div/div[7]/div/div/div/div[2]')).getText();
         allTrendings.push(secondTrending)
         allTrendings.push(thirdTrending)
         allTrendings.push(fourthTrending)
